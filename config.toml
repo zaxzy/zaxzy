@@ -1,0 +1,58 @@
+baseURL = "https://kwatme.com"
+DefaultContentLanguage = "en"
+title = "Kwat Medetgul-Ernar"
+disqusShortname = "kwatme-com"
+googleAnalytics = "UA-107909561-1"
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+canonifyURLs = true
+publishDir = "docs"
+
+[permalinks]
+  posts = "/posts/:year/:month/:day/:title/"
+
+[author]
+  name = "Kwat ME"
+
+[taxonomies]
+  tag = "tags"
+  category = ""
+
+[params]
+  dateform = "Jan 2, 2006"
+  dateformShort = "Jan 2"
+  dateformNum = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  description = "Homepage"
+  keywords = "homepage, blog, information, analytics, medicine, MD, PhD"
+  images = [""]
+  homeSubtitle = "Elon Musk of medicine"
+  defaultTheme = "dark"
+  favicon = "favicon.png"
+
+  [params.logo]
+    logoText = "$ cd /home/kwatme"
+    logoHomeLink = "/"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/kwatme/"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/kwatme/"
+
+  [[params.social]]
+    name = "email"
+    url = "mailto:kwatme8@gmail.com"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "bio"
+    name = "Bio"
+    url = "bio/"
+
+  # [[menu.main]]
+  #   identifier = "posts"
+  #   name = "Posts"
+  #   url = "posts/"
